@@ -1,11 +1,11 @@
 import RinoApp from 'src/RinoApp.vue'
 import { createVM } from '../helpers/utils.js'
 
-describe('Hi.vue', function () {
-  it('should render correct contents', function () {
-    const vm = createVM(this, `
-<RinoApp></RinoApp>
-`, { components: { RinoApp }})
-    vm.$el.querySelector('.hello h1').textContent.should.eql('Hello World!')
-  })
+describe('Rino App', function () {
+    it('should render app with div#rino-app', function () {
+        const vm = createVM(this, h => (
+            <RinoApp></RinoApp>
+        ), { components: { RinoApp } })
+        vm.$el.querySelector('div#rino-app').should.have.id('rino-app')
+    })
 })

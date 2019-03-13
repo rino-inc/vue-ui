@@ -74,6 +74,7 @@
     "lint-staged": "^3.4.0",
     "mocha": "^3.3.0",
     "mocha-css": "^1.0.1",
+    "node-sass": "^4.11.0",
     "null-loader": "^0.1.1",
     "postcss": "^6.0.0",
     "postcss-cssnext": "^2.10.0",
@@ -120,12 +121,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github.com/Sarps/vue-ui.git"
+    "url": "git+https://github.com/rino-inc/vue-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/github.com/Sarps/vue-ui/issues"
+    "url": "https://github.com/rino-inc/vue-ui/issues"
   },
-  "homepage": "https://github.com/github.com/Sarps/vue-ui#readme",
+  "homepage": "https://github.com/rino-inc/vue-ui#readme",
   "license": {
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/mit-license.php"
