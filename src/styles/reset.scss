@@ -1,0 +1,17 @@
+$theme-color: #3AD02D;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Herculanum;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: $theme-color;
+    overflow: auto;
+    color: #707070;
+}

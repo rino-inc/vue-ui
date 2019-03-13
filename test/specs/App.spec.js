@@ -1,11 +1,11 @@
-import Hello from 'src/Hello.vue'
+import RinoApp from 'src/RinoApp.vue'
 import { createVM } from '../helpers/utils.js'
 
 describe('Hi.vue', function () {
   it('should render correct contents', function () {
     const vm = createVM(this, `
-<Hello></Hello>
-`, { components: { Hello }})
+<RinoApp></RinoApp>
+`, { components: { RinoApp }})
     vm.$el.querySelector('.hello h1').textContent.should.eql('Hello World!')
   })
 })
