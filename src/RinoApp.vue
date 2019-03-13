@@ -15,7 +15,7 @@ export default {};
   position: relative;
   height: 100%;
   & > div {
-    display: flex;
+    display: flex !important;
   }
 }
 </style>

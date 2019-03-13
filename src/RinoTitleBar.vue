@@ -4,7 +4,7 @@
       <img src="Fonts.png" alt>
     </div>
     <div class="content">
-      <div class="app-name">RINO Fonts</div>
+      <div class="app-name">RINO {{app}}</div>
       <div id="center"></div>
       <div id="right"></div>
     </div>
@@ -13,14 +13,18 @@
 
 <script>
 export default {
-    props: [
-        
-    ]
+    props: {
+        app: {
+            type: String,
+            default: ''
+        }
+    }
 };
 </script>
 
 <style lang="scss">
 #titlebar {
+    display: flex;
   position: relative;
   height: 50px;
   width: 100%;
